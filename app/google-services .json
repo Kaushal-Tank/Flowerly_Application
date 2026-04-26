@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20746339723",
+    "project_id": "flowerly-shopping-app",
+    "storage_bucket": "flowerly-shopping-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20746339723:android:f93092897dccfcfe519b8e",
+        "android_client_info": {
+          "package_name": "com.example.flowerlyshoppingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkEixk2g6hkY3oh_XEIpItuLkvjo2xSj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

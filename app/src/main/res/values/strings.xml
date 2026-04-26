@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- App Name TODO change it later -->
+    <string name="app_name">Flowerly Shopping App</string>
+
+    <!-- Menu Buttons Names -->
+    <string name="home">Home</string>
+    <string name="shop">Shop</string>
+    <string name="favourite">Favourite</string>
+    <string name="cart">Cart</string>
+    <string name="account">Account</string>
+
+    <!-- Normal Text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="continue_as_a_guest">Continue as a Guest</string>
+    <string name="create_your_account">Create your Account</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="don_t_have_an_account">Don\'t have an Account</string>
+    <string name="log_in_your_account">Log in your account</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="your_flower_shop">Your Flower Shop</string>
+    <string name="cdata_trends_popular_now"><![CDATA[Trends & Popular now]]></string>
+
+    <!-- Buttons and Field Text -->
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="flowerly">Flowerly</string>
+    <string name="notification">Notification</string>
+    <string name="search">Search</string>
+    <string name="view_all">View all</string>
+    <string name="item_image">Item Image</string>
+    <string name="back">Back</string>
+    <string name="cart_item_image">Cart Item Image</string>
+    <string name="remove_from_cart">Remove from Cart</string>
+    <string name="add_quantity">Add Quantity</string>
+
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower_shopping_app_bg"
+    tools:context=".feature.auth.presentation.ui.SignupPageFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/auth_form_container"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:orientation="vertical"
+            android:padding="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="TextSizeCheck">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/merriweather_variable_font"
+                android:padding="12dp"
+                android:text="@string/sign_up"
+                android:textColor="@color/deep_teal_green"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_su_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="6dp"
+                android:autofillHints=""
+                android:background="@drawable/auth_input_field"
+                android:fontFamily="@font/merriweather_variable_font"
+                android:hint="@string/first_name"
+                android:inputType="text"
+                android:padding="6dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="1dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_su_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="6dp"
+                android:autofillHints=""
+                android:background="@drawable/auth_input_field"
+                android:fontFamily="@font/merriweather_variable_font"
+                android:hint="@string/last_name"
+                android:inputType="text"
+                android:padding="6dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="1dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_su_email"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="6dp"
+                android:autofillHints=""
+                android:background="@drawable/auth_input_field"
+                android:fontFamily="@font/merriweather_variable_font"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="6dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="1dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_su_password"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="6dp"
+                android:autofillHints=""
+                android:background="@drawable/auth_input_field"
+                android:fontFamily="@font/merriweather_variable_font"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="6dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="1dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_su_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="6dp"
+                android:autofillHints=""
+                android:background="@drawable/auth_input_field"
+                android:fontFamily="@font/merriweather_variable_font"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:padding="6dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="1dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="26dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/corner_btn_1"
+                android:contentDescription="@string/create_your_account"
+                android:fontFamily="@font/merriweather_variable_font"
+                android:maxWidth="400dp"
+                android:padding="12dp"
+                android:text="@string/sign_up"
+                android:textColor="@color/white"
+                android:textFontWeight="500"
+                android:textSize="18sp"
+                app:backgroundTint="@null"
+                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/su_as_guest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="26dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/corner_btn_2"
+                android:fontFamily="@font/merriweather_variable_font"
+                android:maxWidth="400dp"
+                android:padding="12dp"
+                android:text="@string/continue_as_a_guest"
+                android:textColor="@color/emerald_green"
+                android:textFontWeight="500"
+                android:textSize="18sp"
+                app:backgroundTint="@null"
+                tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/merriweather_variable_font"
+                    android:text="@string/already_have_an_account"
+                    android:textColor="@color/deep_teal_green"
+                    android:textFontWeight="400" />
+
+                <Button
+                    android:id="@+id/go_to_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/merriweather_variable_font"
+                    android:paddingStart="6dp"
+                    android:paddingEnd="1dp"
+                    android:text="@string/log_in"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/deep_teal_green"
+                    android:textFontWeight="800" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

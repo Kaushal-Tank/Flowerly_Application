@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="emerald_green">#23C16B</color>
+    <color name="deep_teal_green">#198155</color>
+    <color name="mint_mist">#DAEFDE</color>
+    <color name="soft_gray">#F2F4F5</color>
+    <color name="off_white">#FAFAFA</color>
+    <color name="forest_teal">#198155</color>
+    <color name="light_gray">#D9D9D9</color>
+    <color name="gray">#757575</color>
+
+</resources>
